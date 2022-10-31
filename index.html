@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Skeleton</title>
+    <link type="text/css" rel="stylesheet" href="./assets/css/custom.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <section id="menu">
+          <nav class="navbar navbar-expand-lg bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img src="./assets/img/logo.svg" alt="motogp" width="80" height="74">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a id="title-moto" class="nav-link active" aria-current="page" href="#">
+                        Moto GP fan page
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="d-flex justify-content-center">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 start-100">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pilotos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Comprar Tickets</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Calendario</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Moto GP</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="m2" href="#">Moto2</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="m3" href="#">Moto3</a>
+                      </li>
+                    </ul>
+                  </div>  
+                </div>
+              </div>
+            </nav>
+      </section>
+      <section id="palacio">
+        <div class="card border-0" style="color: white">
+          <img src="./assets/img/ba1.jpg" alt="palacio de agua" class="img-fluid" style="filter:brightness(50%);"/>
+            <div class="carousel-caption" style="left: 35%; bottom: 2rem;">
+              <div class="text-end" style="font-size: 1.5vw; width: 50vw; align-content: flex-end;">
+                  <h3 class="card-title">Conf Bs As</h3>
+                  <p class="card-text">
+                    Bs As llega por primera vez a Argentina. Un evento para compartir
+                    con nuestra comunidad el conocimiento y experiencia de los expertos
+                    que están creando el futuro de Internet. Van a conocer miembros del
+                    evento, a otros estudiantes de Codo a Codo y los oradores de primer
+                    nivel que tenemos para ti. Te esperamos!
+                  </p>
+                  <a
+                    href="#conviertete en orador"
+                    class="btn btn-transparent border-light text-light"
+                    style="font-size: 1.5vw;"
+                  >
+                    Quiero ser orador
+                  </a>
+                  <a
+                    class="btn"
+                    href="../integradorbs2/compratickets/index.html"
+                    id="botontix"
+                    style="font-size: 1.5vw;"
+                  >
+                    Comprar tickets
+                  </a>
+              </div>
+            </div>
+        </div>
+      </section>
+      <section id="form5">
+        <div class="container">
+          <form>
+            <h2 class="text-center">Titulo</h2>
+            <h4 class="text-center">Este es un subtítulo para el formulario</h4>
+            <div class="row">
+              <div class="col">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <textarea class="form-control">Submit</textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section id="motogp">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators gb-dark bg-gradient">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active"
+              aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+              class=""></button>
+          </div>
+          <div class="carousel-inner">
+              <div class="carousel-item">
+                  <img id="img-marq" class="img-fluid" src="./assets/img/main2.jpg" alt="marquez" width="100%" height="400px" />
+                  <div class="container">
+                      <div class="carousel-caption text-end shadow-lg bg-opacity-25 bg-black ps-4">
+                          <h3 id="h3-marq">Arranca la fecha 16 del campeonato de Moto GP en Motegi</h1>
+                          <p id="p-end">Marc Márquez</p>
+                          <p id="p-end"><a class="btn btn-lg btn-success btn-outline-dark border-0" href="#">Iniciar Sesión</a></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item active">
+                  <img class="img-fluid" src="./assets/img/mo2.jpg" alt="auto oxidado" width="100%" height="400px" />
+                  <div class="container">
+                      <div class="carousel-caption text-center shadow-lg bg-opacity-25 bg-black">
+                          <p>Arranca la fecha 16 del campeonato de Moto GP en Motegi.</p>
+                          <p><a class="btn btn-lg btn-outline-dark" href="#">Leer Más</a></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img id="img-mo2" class="img-fluid" src="./assets/img/mo4.jpg" alt="motegi" width="100%" height="400px" />
+                  <div class="container">
+                      <div class="carousel-caption text-start shadow-lg bg-opacity-50 bg-black">
+                          <h1>One more time.</h1>
+                          <p id="p-start">Future reserved words
+                            The following are reserved as future
+                            keywords by the ECMAScript specification.
+                            They have no special functionality at present,
+                            but they might at some future time, so they cannot
+                            be used as identifiers.
+                            These are always reserved:
+                            The following are only reserved when they are found in strict mode code:
+                          </p>
+                          <p><a class="btn btn-lg btn-success btn-outline-dark border-0 me-2 fw-semibold" href="#">Visitar
+                                  Galería</a></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <button class="carousel-control-prev" aria-label="Anterior" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previa</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+          </button>
+      </div>
+    </section>
+
+    <section id="oradores">
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/motegi1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Fecha 16° del Moto GP</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/weather3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Clima en Motegi</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/motegi2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Info Adicional</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section id="honolulu">
+        <div class="card mb-3 text-white bg-dark" style="max-width: 100vw;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/img/pecco.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Pecco va por el primer puesto</h5>
+                  <p class="card-text">
+                    Tras cosechar cuatro victorias, nueve podios y seis poles en 2021, el ‘63’ ya
+                    demostró estar preparado para la batalla por el cetro.
+                    Vinculado siempre a Ducati en la Categoría Reina, debutó con su equipo satélite
+                    Pramac Racing en 2019. Tras dos años brillantes en dicha formación, dio el salto
+                    a la fuerza oficial, convirtiéndose en la principal baza del fabricante boloñés
+                    a los que se le resiste la gloria desde que la conquistaran en 2007 con Casey
+                    Stoner.
+                  </p>
+                  <p class="card-text"><small class="text-muted">Ultima actualización hace 3 min.</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="formulario">
+      <div class="card text-bg-info">
+        <img src="./assets/img/quarta.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay text-end bg-opacity-25">
+          <div id="container bg-black">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              El líder del mundial Fabio Quartararo - Yamaha Monster Energy Team
+            </p>
+            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="imxt">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+              <img id="lol" class="img-fluid" src="./assets/img/main2.jpg" alt="marquez" width="100%" height="400px" />
+              <div class="container">
+                  <div class="carousel-caption text-end shadow-lg bg-opacity-25 bg-black ps-4">
+                      <h3>Arranca la fecha 16 del campeonato de Moto GP en Motegi.</h1>
+                      <p>Marc Márquez</p>
+                      <p><a class="btn btn-lg btn-success btn-outline-dark border-0" href="#">Iniciar Sesión</a></p>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>   
+    </section>  
+
+    <section id="formulario2">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex align-items-center">
+            Inicio
+          </div>
+          <div class="col d-flex align-items-center">
+            Calendario
+          </div>
+          <div class="col d-flex align-items-center">
+            Pilotos
+          </div>
+          <div class="col d-flex align-items-center">
+            Preguntas Frecuentes
+          </div>
+          <div class="col d-flex align-items-center">
+            MotoGP
+          </div>
+          <div class="col d-flex align-items-center">
+            Moto2
+          </div>
+          <div class="col d-flex align-items-center">
+            Moto3
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
